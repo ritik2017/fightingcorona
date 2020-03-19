@@ -14,4 +14,8 @@ router.get('/centers', function(req,res){
     res.render('centers')
 })
 
+router.get('/faqs', function(req,res){
+    res.render('faqs')
+})
+
 module.exports = router

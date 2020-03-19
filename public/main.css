@@ -3,6 +3,7 @@
   transition: 0.3s;
   border-radius: 5px;
   margin: 20px;
+  text-align: center;
 }
 
 #col:hover {
@@ -144,4 +145,8 @@ body {
   padding: 50px;
 
 }
+}
+
+.list-faqs {
+  padding: 20px;
 }
