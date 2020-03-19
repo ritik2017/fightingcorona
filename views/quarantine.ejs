@@ -1,0 +1,43 @@
+<%- include('includes/header') %>
+
+<div class="quarantine">
+<h2> What You Should Follow in Self-Quarantine</h2>
+<p>
+    The best way to be safe and break the chain of spreading virus is to stay in quarantine.
+    With no well-studied treatment and no viable vaccine available for at least another year,
+    the only effective way to keep the coronavirus pandemic at bay is to give the virus fewer
+    chances of spreading. The following list of actions, ordered from easiest to implement to 
+    most effective in the fight against the pandemic, should serve as a set of loose guidelines 
+    for people who wish to join the movement and take action that can actually make a difference.
+</p>
+<ol class="quar-menu" id="quar-menu">
+<li class="pb-2">Don't panic, but be alert.</li>
+<li class="pb-2">Wash your hands often and practice good cough and sneeze etiquette.</li>
+<li class="pb-2">Try to touch your face as little as possible, including your mouth, nose, 
+    and eyes.</li>
+<li class="pb-2">Practice social distancing, no hugs and kisses, no handshakes, no high 
+    fives. If you must, use safer alternatives.</li>
+<li class="pb-2">Do not attend concerts, stage plays, sporting events, or any other mass 
+    entertainment events.</li>
+<li class="pb-2">Refrain from visiting museums, exhibitions, movie theaters, night clubs, 
+    and other entertainment venues.</li><li class="pb-2">Stay away from social gatherings and 
+    events, like club meetings, religious services, and private parties.</li>
+<li class="pb-2">Reduce travel to a minimum. Don't travel long distances if not absolutely 
+    necessary.</li>
+<li class="pb-2">Do not use public transportation if not absolutely necessary.</li>
+<li class="pb-2">If you can work from home, work from home. Urge your employer to allow 
+    remote work if needed.</li>
+<li class="pb-2">Replace as many social interactions as possible with remote alternatives 
+    like phone calls or video chat.</li>
+<li class="pb-2">Do not leave your home unless absolutely necessary.</li>
+</ol>
+
+</div>
+
+<script>
+    let mainNav = document.getElementById('js-menu');let navBarToggle = document.getElementById('js-navbar-toggle');
+  navBarToggle.addEventListener('click', function () {
+      mainNav.classList.toggle('active');});
+  </script>
+  
+  <%- include('includes/footer') %>
