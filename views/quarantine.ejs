@@ -32,12 +32,18 @@
 <li class="pb-2">Do not leave your home unless absolutely necessary.</li>
 </ol>
 
+<p> Source Credit : <a onclick="staycredit()"> StayTheFuckHome.com </a> </p>
 </div>
 
 <script>
+    function staycredit() {
+        window.open( 
+                "https://staythefuckhome.com", "_blank"); 
+    }
     let mainNav = document.getElementById('js-menu');let navBarToggle = document.getElementById('js-navbar-toggle');
   navBarToggle.addEventListener('click', function () {
       mainNav.classList.toggle('active');});
+
   </script>
   
   <%- include('includes/footer') %>

@@ -14,23 +14,25 @@
     <span class="navbar-toggle navbar-default" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
     </span>
-    <a href="#" class="logo">Fighting Corona</a>
+    <a href="/" class="logo">Fighting Corona</a>
     <ul class="main-nav" id="js-menu">
+        <li>
+            <a onclick="liveCount()" class="nav-links">Corona Count</a>
+        </li>
         <li>
             <a href="/quarantine" class="nav-links">Quarantine</a>
         </li>
         <li>
+            <a href="/centers" class="nav-links">Centers</a>
+        </li>
+        
+        <li>
             <a href="/faqs" class="nav-links">FAQs</a>
         </li>
         <li>
-            <a href="/helpline" class="nav-links">Helpline</a>
+            <a onclick="helpline()" class="nav-links">Helpline</a>
         </li>
-        <li>
-            <a href="/centers" class="nav-links">Centers</a>
-        </li>
-        <li>
-            <a onclick="liveCount()" class="nav-links">Corona Count</a>
-        </li>
+        
     </ul>
 </nav>
 
@@ -38,5 +40,9 @@
     function liveCount() {
         window.open( 
                 "https://bing.com/covid", "_blank"); 
+    }
+    function helpline() {
+        window.open( 
+                "https://www.mohfw.gov.in/coronvavirushelplinenumber.pdf", "_blank"); 
     }
 </script>

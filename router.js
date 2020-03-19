@@ -10,8 +10,8 @@ router.get('/quarantine', function(req,res) {
     res.render('quarantine')
 })
 
-router.get('/helpline', function(req,res){
-    res.render('helpline')
+router.get('/centers', function(req,res){
+    res.render('centers')
 })
 
 module.exports = router

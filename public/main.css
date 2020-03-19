@@ -134,3 +134,14 @@ body {
 .quarantine {
   padding:  20px;
 }
+
+.center-list {
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+.center-image {
+  padding: 50px;
+
+}
+}
