@@ -4,7 +4,7 @@ const router = require('./router')
 const app = express()
 
 let port = process.env.PORT
-if(port == NULL || port == "")
+if(port == null || port == "")
     port = 3000
 
 app.use(express.static('public'))
