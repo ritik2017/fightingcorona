@@ -76,15 +76,19 @@ body {
   margin-left: 10px;
 }
 
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
 .navbar-toggle {
   position: absolute;
   top: 10px;
   right: 20px;
-  cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer; 
+  color: rgba(255,255,255,0.8);
   font-size: 24px;
 }
-
 
 .active {
   display: block;
@@ -149,4 +153,32 @@ body {
 
 .list-faqs {
   padding: 20px;
+}
+
+.container {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
